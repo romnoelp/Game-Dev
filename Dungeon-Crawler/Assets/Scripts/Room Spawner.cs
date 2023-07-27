@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class RoomSpawner : MonoBehaviour
 {
-    public int openingDirectionValue; 
+    public int openingDirectionValue;
 
     private RoomTemplate roomTemplate;
     private int random;
     private bool roomHasSpawned = false;
+    private float pointDestroyerInSecs = 4f;
 
-    private void Start() {
+    private void Start()
+    {
+        Destroy(gameObject, pointDestroyerInSecs);
         roomTemplate = GameObject.FindGameObjectWithTag("Room Template").GetComponent<RoomTemplate>();
         Invoke("spawnRoom", .2f);
     }
@@ -22,6 +25,7 @@ public class RoomSpawner : MonoBehaviour
             if (openingDirectionValue == 1) {
                 random = Random.Range(0, roomTemplate.bottomRoom.Length);
                 Instantiate(roomTemplate.bottomRoom[random], transform.position, roomTemplate.bottomRoom[random].transform.rotation);
+                
             }
             else if (openingDirectionValue == 2) {
                 random = Random.Range(0, roomTemplate.topRoom.Length);

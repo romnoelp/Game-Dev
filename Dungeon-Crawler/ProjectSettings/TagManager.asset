@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Room Template
   - Spawn Point
+  - Player Spawn Point
+  - Camera Shaker
+  - Red Light Source
+  - Blue Light Source
+  - Acid Light Source
   layers:
   - Default
   - TransparentFX
@@ -46,14 +51,11 @@ TagManager:
   - name: Ground
     uniqueID: 3382084841
     locked: 0
-  - name: Horizontal wall
+  - name: Wall
     uniqueID: 2666964879
     locked: 0
-  - name: Vertical Wall
-    uniqueID: 3090796995
-    locked: 0
   - name: Room Design
-    uniqueID: 1969961515
+    uniqueID: 2391264125
     locked: 0
   - name: Interactables
     uniqueID: 1634347571
