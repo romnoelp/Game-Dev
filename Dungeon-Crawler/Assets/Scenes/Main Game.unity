@@ -290,7 +290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &855965731
 AudioSource:
   m_ObjectHideFlags: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.31
+  m_Intensity: 0.03
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000e98496c98fa7f69e7dcb878e332a6a6163a5a8e3
@@ -839,10 +839,38 @@ MonoBehaviour:
   - {fileID: 1095170142833940078, guid: b9ecd2e2b06a1234d892a98787eef9a3, type: 3}
   - {fileID: 229011615395174607, guid: 5d9050d6f18c5da45957a76c273cb909, type: 3}
   - {fileID: 2227602665665166969, guid: 07bdd275af66d7944b8ad2aa8b524659, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
+  - {fileID: 6664418737555240702, guid: 20e9f6ab5bf28b245a3da82f90e075a9, type: 3}
   bottomRoom:
-  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
   - {fileID: 3227142736157253031, guid: bf9f607c6d5929c4196eed3b93b7bcd1, type: 3}
   - {fileID: 1095170142833940078, guid: b9ecd2e2b06a1234d892a98787eef9a3, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
   leftRoom:
   - {fileID: 8731639637237179715, guid: 15d36f82c15022544a7120e1c4553cdd, type: 3}
   - {fileID: 3953182004020853953, guid: 0994a937b9624e74b8f82b95071600aa, type: 3}
@@ -852,12 +880,11 @@ MonoBehaviour:
   - {fileID: 3953182004020853953, guid: 0994a937b9624e74b8f82b95071600aa, type: 3}
   - {fileID: 229011615395174607, guid: 5d9050d6f18c5da45957a76c273cb909, type: 3}
   - {fileID: 3227142736157253031, guid: bf9f607c6d5929c4196eed3b93b7bcd1, type: 3}
+  endLevelLoot:
+  - {fileID: 2358689851501756059, guid: 20a906b2e68f11b4985434a74397dd4a, type: 3}
   closedRoom: {fileID: 1745336105790008262, guid: b970d9d1e3a4192449aba5e04e17e20d, type: 3}
   exitRoom: {fileID: 2864120252929464339, guid: 5b9dadccfac30d04d8168dfec1b3e856, type: 3}
   healRoom: {fileID: 4868938248254049503, guid: 758dc2933535fc44a970083f26323e2c, type: 3}
-  endLevelLoot:
-  - {fileID: 2358689851501756059, guid: 20a906b2e68f11b4985434a74397dd4a, type: 3}
-  - {fileID: 2336008059279885940, guid: b6eaf458d4d74e94aab029cdd935dc37, type: 3}
   boss: {fileID: 2392414651354837632, guid: aa6ace007a98ad44e97d8339f5156f84, type: 3}
   waitTime: 2
   levelNumber: 1
