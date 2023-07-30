@@ -301,9 +301,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1379a816bacfd3642ac7c55e119d23d7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 47b2dee0c7afeec4ca15f09e11eb760c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -484,10 +484,10 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.03
+  m_Intensity: 0.1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000e98496c98fa7f69e7dcb878e332a6a6163a5a8e3
+  m_ApplyToSortingLayers: 00000000e98496c98fa7f69e7dcb878e332a6a6163a5a8e32159e39c
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -871,15 +871,24 @@ MonoBehaviour:
   - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
   - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
   - {fileID: 2518192127670185316, guid: 957fad679b08c404c8e04d7cc3225573, type: 3}
+  - {fileID: 1898217791184320599, guid: 66438ca523085d443bde5c300dcc0302, type: 3}
+  - {fileID: 1898217791184320599, guid: 66438ca523085d443bde5c300dcc0302, type: 3}
   leftRoom:
   - {fileID: 8731639637237179715, guid: 15d36f82c15022544a7120e1c4553cdd, type: 3}
   - {fileID: 3953182004020853953, guid: 0994a937b9624e74b8f82b95071600aa, type: 3}
   - {fileID: 2227602665665166969, guid: 07bdd275af66d7944b8ad2aa8b524659, type: 3}
+  - {fileID: 1898217791184320599, guid: 66438ca523085d443bde5c300dcc0302, type: 3}
+  - {fileID: 1898217791184320599, guid: 66438ca523085d443bde5c300dcc0302, type: 3}
+  - {fileID: 1898217791184320599, guid: 66438ca523085d443bde5c300dcc0302, type: 3}
+  - {fileID: 1898217791184320599, guid: 66438ca523085d443bde5c300dcc0302, type: 3}
   rightRoom:
   - {fileID: 7041895470192931258, guid: 0b2d31134a2651d4e80f48858ac31017, type: 3}
   - {fileID: 3953182004020853953, guid: 0994a937b9624e74b8f82b95071600aa, type: 3}
   - {fileID: 229011615395174607, guid: 5d9050d6f18c5da45957a76c273cb909, type: 3}
   - {fileID: 3227142736157253031, guid: bf9f607c6d5929c4196eed3b93b7bcd1, type: 3}
+  - {fileID: 1898217791184320599, guid: 66438ca523085d443bde5c300dcc0302, type: 3}
+  - {fileID: 1898217791184320599, guid: 66438ca523085d443bde5c300dcc0302, type: 3}
+  - {fileID: 1898217791184320599, guid: 66438ca523085d443bde5c300dcc0302, type: 3}
   endLevelLoot:
   - {fileID: 2358689851501756059, guid: 20a906b2e68f11b4985434a74397dd4a, type: 3}
   closedRoom: {fileID: 1745336105790008262, guid: b970d9d1e3a4192449aba5e04e17e20d, type: 3}
@@ -887,7 +896,7 @@ MonoBehaviour:
   healRoom: {fileID: 4868938248254049503, guid: 758dc2933535fc44a970083f26323e2c, type: 3}
   boss: {fileID: 2392414651354837632, guid: aa6ace007a98ad44e97d8339f5156f84, type: 3}
   waitTime: 2
-  levelNumber: 1
+  levelNumber: 5
   rooms: []
 --- !u!4 &1985483386
 Transform:
