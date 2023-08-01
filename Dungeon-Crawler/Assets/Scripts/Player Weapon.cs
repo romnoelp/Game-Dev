@@ -7,13 +7,14 @@ public class PlayerWeapon : MonoBehaviour
     public float damage;
     public float knockback;
     public SpriteRenderer weaponSprite;
-    private float attackCooldown = .5f;
+    private float attackCooldown = .1f;
     private float lastSwing;
+    private Animator weaponAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        weaponAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,7 +29,7 @@ public class PlayerWeapon : MonoBehaviour
     }
 
     private void attack() {
-        Debug.Log("Attack");
+        weaponAnimator.SetTrigger("isAttacking");
     }
     private void OnCollisionEnter2D(Collision2D other) {
         Debug.Log(other.collider.name);
