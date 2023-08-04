@@ -7,7 +7,7 @@ public class PlayerWeapon : MonoBehaviour
     public float damage;
     public float knockback;
     public SpriteRenderer weaponSprite;
-    private float attackCooldown = .1f;
+    private readonly float attackCooldown = .2f;
     private float lastSwing;
     private Animator weaponAnimator;
 
@@ -23,12 +23,12 @@ public class PlayerWeapon : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) {
             if (Time.time - lastSwing > attackCooldown) {
                 lastSwing = Time.time;
-                attack();
+                Attack();
             }
         }
     }
 
-    private void attack() {
+    private void Attack() {
         weaponAnimator.SetTrigger("isAttacking");
     }
     private void OnCollisionEnter2D(Collision2D other) {

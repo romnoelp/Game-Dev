@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 4877275498702502273}
   - component: {fileID: 9028063676826067053}
   - component: {fileID: 1573127426990305518}
+  - component: {fileID: 2715328771047977487}
+  - component: {fileID: 1479833372598074708}
+  - component: {fileID: 7387795284410166563}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Enemy
@@ -159,7 +162,81 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!95 &2715328771047977487
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2392414651354837632}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d26f1098e643bda4e94e54b8ebafca42, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1479833372598074708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2392414651354837632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 545065fbd9ac5c84c90d1e078b878359, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyName: Asmodeus the Guardian
+  movementSpeed: 1.5
+  attackSpeed: 1
+  attackRange: 1
+  chaseRange: 4
+  target: {fileID: 0}
+--- !u!58 &7387795284410166563
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2392414651354837632}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 6
 --- !u!1 &2997789874504521025
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,8 +336,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.008850008, y: -0.64035, z: 0}
-    m_Extent: {x: 0.99275005, y: 0.77935004, z: 0}
+    m_Center: {x: -0.0056500137, y: -0.6459, z: 0}
+    m_Extent: {x: 0.99405, y: 0.78139997, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -346,8 +423,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016350001, y: 0.034949988, z: 0}
-    m_Extent: {x: 0.54174995, y: 0.55505, z: 0}
+    m_Center: {x: 0.016750008, y: 0.03975001, z: 0}
+    m_Extent: {x: 0.53655005, y: 0.56694996, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -428,8 +505,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.06799999, y: 0.029850006, z: 0}
-    m_Extent: {x: 0.55550003, y: 0.56105, z: 0}
+    m_Center: {x: 0.059349984, y: 0.033499986, z: 0}
+    m_Extent: {x: 0.56264997, y: 0.56229997, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
